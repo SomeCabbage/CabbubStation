@@ -23,6 +23,12 @@
 	icon_state = "lustwish-control"
 	theme = /datum/mod_theme/lustwish
 
+/obj/item/mod/control/pre_equipped/spacefarer
+	theme = /datum/mod_theme/spacefarer
+	applied_modules = list(
+		/obj/item/mod/module/storage/belt/civilian
+	)
+
 //Hat Stabilizer Module added as default module to the Blueshield and Safeguard Modsuits
 /obj/item/mod/control/pre_equipped/blueshield/New()
 	applied_modules += list(

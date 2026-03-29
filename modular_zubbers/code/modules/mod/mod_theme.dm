@@ -165,3 +165,64 @@
 #undef LUSTWISH_GAUNTLET_UNSEAL
 #undef LUSTWISH_BOOT_SEAL
 #undef LUSTWISH_BOOT_UNSEAL
+
+/datum/mod_theme/spacefarer
+	name = "spacefarer"
+	desc = "A style of suit developed from technology acquired from the Roseus Galactic Actors Guild to provide a somehow cheaper option to normal space suits."
+	extended_desc = "The spacefarer belt-mounted modular suit plating is derived from the compact and efficient Roseus technology found in their infiltrator suits. \
+		While it doesn't offer any of the protection, modular, or tactical capabilities of said suit (or any other suit for that matter), it offers compact and \
+		convenient low-pressure protection, along with a slightly increased power efficiency compared to bulkier suits. \
+		But really, what it was made to be is a portable space suit, and that is what it delivers."
+	default_skin = "civilian"
+	armor_type = /datum/armor/mod_theme_spacefarer
+	charge_drain = DEFAULT_CHARGE_DRAIN * 0.75
+	resistance_flags = NONE
+	complexity_max = DEFAULT_MAX_COMPLEXITY - 10
+	slowdown_deployed = 0.25
+	activation_step_time = MOD_ACTIVATION_STEP_TIME * 0.75
+	ui_theme = "ntos"
+	slot_flags = ITEM_SLOT_BELT
+	variants = list(
+		"civilian" = list(
+			/obj/item/clothing/head/mod = list(
+				UNSEALED_LAYER = NECK_LAYER,
+				UNSEALED_CLOTHING = SNUG_FIT,
+				SEALED_CLOTHING = THICKMATERIAL|STOPSPRESSUREDAMAGE|HEADINTERNALS,
+				SEALED_INVISIBILITY = HIDEFACIALHAIR|HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDESNOUT,
+				SEALED_COVER = HEADCOVERSMOUTH|HEADCOVERSEYES|PEPPERPROOF,
+				UNSEALED_MESSAGE = HELMET_UNSEAL_MESSAGE,
+				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
+			),
+			/obj/item/clothing/suit/mod = list(
+				UNSEALED_CLOTHING = THICKMATERIAL,
+				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
+				SEALED_INVISIBILITY = HIDEJUMPSUIT,
+				UNSEALED_MESSAGE = CHESTPLATE_UNSEAL_MESSAGE,
+				SEALED_MESSAGE = CHESTPLATE_SEAL_MESSAGE,
+			),
+			/obj/item/clothing/gloves/mod = list(
+				UNSEALED_CLOTHING = THICKMATERIAL,
+				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
+				CAN_OVERSLOT = TRUE,
+				UNSEALED_MESSAGE = GAUNTLET_UNSEAL_MESSAGE,
+				SEALED_MESSAGE = GAUNTLET_SEAL_MESSAGE,
+			),
+			/obj/item/clothing/shoes/mod = list(
+				UNSEALED_CLOTHING = THICKMATERIAL,
+				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
+				CAN_OVERSLOT = TRUE,
+				UNSEALED_MESSAGE = BOOT_UNSEAL_MESSAGE,
+				SEALED_MESSAGE = BOOT_SEAL_MESSAGE,
+			),
+		),
+	)
+
+/datum/armor/mod_theme_spacefarer
+	melee = 5
+	bullet = 5
+	laser = 5
+	energy = 5
+	bio = 50
+	fire = 15
+	acid = 15
+	wound = 5

@@ -53,4 +53,17 @@
 		mod.wearer.key = ai_key
 		mod.ai_assistant.key = wearer_key
 	ai_control = !ai_control
+	
+/obj/item/mod/module/storage/belt/civilian
+	name = "Civilian MOD case storage module"
+	icon = 
+	icon_state = "storage_case"
+	desc = "A civilian-grade slim storage module to fit in a more compact style of modular suit. \
+		It's derived from technology acquired from Roseus Galactic's insidious line of infiltrator suits. \
+		If you find this equipped to a standard modular suit, then someone has almost certainly shortchanged you on a proper storage module."
+	complexity = 2
 
+/obj/item/mod/construction/plating/spacefarer
+	icon = 'modular_zubbers/icons/mob/clothing/modsuit/mod_modules.dmi'
+	icon_state = "lustwish-plating"
+	theme = /datum/mod_theme/spacefarer
