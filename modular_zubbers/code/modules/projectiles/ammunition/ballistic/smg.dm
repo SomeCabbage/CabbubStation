@@ -18,3 +18,10 @@
 	can_be_printed = FALSE
 	advanced_print_req = TRUE
 	custom_materials = AMMO_MATS_TEMP
+
+/obj/item/ammo_casing/c46x30mm/compressed
+	name = "compressed 4.6x30mm bullet casing"
+	desc = "A compressed 4.6x30mm bullet casing."
+	can_be_printed = TRUE
+	advanced_print_req = TRUE
+	custom_materials = AMMO_MATS_BASIC
