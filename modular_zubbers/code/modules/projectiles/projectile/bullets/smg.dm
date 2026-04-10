@@ -19,3 +19,4 @@
 /obj/projectile/bullet/c46x30mm/compressed
 	name = "compressed 4.6x30mm bullet"
 	damage = 14
+	wound_bonus = -10

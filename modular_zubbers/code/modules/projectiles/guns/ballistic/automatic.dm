@@ -54,8 +54,8 @@
 	desc = "An insanely chopped down WT-550. The barrel, stock and parts of the frame have been sawn down to reduce weight, somehow increasing fire-rate but causing handling to drop to abysmal levels. Don't even think about dual-wielding these. Uses 4.6x30mm rounds."
 	icon = 'modular_zubbers/icons/obj/weapons/guns/wt550sawn.dmi'
 	w_class = WEIGHT_CLASS_NORMAL
-	projectile_damage_multiplier = 0.9
-	projectile_speed_multiplier = 0.9
+	projectile_damage_multiplier = 0.8
+	projectile_speed_multiplier = 0.8
 	spread = 25
 	dual_wield_spread = 50
 	recoil = SAWN_OFF_RECOIL
