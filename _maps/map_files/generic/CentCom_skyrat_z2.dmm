@@ -15786,7 +15786,7 @@
 /obj/item/paper_bin,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/multitool,
-/turf/open/floor/wood/large,
+/turf/open/floor/carpet/executive,
 /area/centcom/central_command_areas/admin/interlink)
 "pFr" = (
 /obj/machinery/door/airlock/security{
@@ -16149,7 +16149,7 @@
 /area/centcom/interlink)
 "pVD" = (
 /obj/structure/dresser,
-/turf/open/floor/wood/large,
+/turf/open/floor/carpet/executive,
 /area/centcom/central_command_areas/admin/interlink)
 "pWH" = (
 /obj/structure/showcase/fakeid{
@@ -20360,7 +20360,7 @@
 "uAY" = (
 /obj/structure/bed/double,
 /obj/item/bedsheet/centcom/double,
-/turf/open/floor/wood/large,
+/turf/open/floor/carpet/executive,
 /area/centcom/central_command_areas/admin/interlink)
 "uCK" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -44416,8 +44416,8 @@ cAd
 cAd
 cAd
 oMF
-cAd
-cAd
+lFv
+lFv
 cAd
 cAd
 lEu
@@ -44675,7 +44675,7 @@ rPG
 lEu
 aXQ
 fIk
-lFv
+cAd
 uAY
 lEu
 aaa
