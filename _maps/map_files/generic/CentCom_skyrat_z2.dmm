@@ -4178,7 +4178,7 @@
 /obj/machinery/door/airlock/centcom{
 	name = "Administrative Office"
 	},
-/turf/closed/indestructible/fakedoor,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin/interlink)
 "dhg" = (
 /obj/effect/light_emitter/interlink,
